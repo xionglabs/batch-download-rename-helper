@@ -1,0 +1,4 @@
+images/placeholder.txt
+建立images文件夹
+上传图像文件
+为什么建个文件夹这么困难？
