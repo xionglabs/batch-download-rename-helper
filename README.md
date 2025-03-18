@@ -47,17 +47,17 @@ Batch Download & Rename Helper is a browser extension that allows you to downloa
 
 ## 安装方法 (Installation)
 
-### 从浏览器应用商店安装 (Install from Browser Store)
-
-1. 访问 [Chrome网上应用店](https://chrome.google.com/webstore/detail/批量下载重命名助手/your-extension-id) 或 [Edge插件商店](https://microsoftedge.microsoft.com/addons/detail/批量下载重命名助手/your-extension-id)
-2. 点击"添加到Chrome/Edge"按钮
-
 ### 手动安装 (Manual Installation)
 
 1. 下载此仓库的ZIP文件并解压
 2. 打开Chrome/Edge浏览器，进入扩展管理页面 (chrome://extensions 或 edge://extensions)
 3. 开启"开发者模式"
 4. 点击"加载已解压的扩展"，选择解压后的文件夹
+
+### 从浏览器应用商店安装 (Install from Browser Store)（暂未实现，优先手动安装）
+
+1. 访问 [Chrome网上应用店](https://chrome.google.com/webstore/detail/批量下载重命名助手/your-extension-id) 或 [Edge插件商店](https://microsoftedge.microsoft.com/addons/detail/批量下载重命名助手/your-extension-id)
+2. 点击"添加到Chrome/Edge"按钮
 
 ## 隐私说明 (Privacy Statement)
 
