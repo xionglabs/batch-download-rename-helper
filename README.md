@@ -1,5 +1,8 @@
 # 批量下载重命名助手 (Batch Download & Rename Helper)
 
+![image](https://github.com/user-attachments/assets/df6ade1d-f9a1-427d-81ad-e33d98285246)
+
+
 ## 简介 (Introduction)
 
 批量下载重命名助手是一款浏览器扩展，可以一键批量下载并自动使用链接文本重命名文件。无论是PDF文档、Word文件还是图片，都能智能识别并使用有意义的名称保存，让您的下载内容更加有序。
