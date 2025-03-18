@@ -1,0 +1,43 @@
+{
+  "name": "批量下载重命名助手 (Batch Download & Rename Helper)",
+  "short_name": "批量下载助手",
+  "version": "1.0.0",
+  "author": "xionglabs",
+  "homepage_url": "https://x.com/xiongtalk",
+  "description": "一键批量下载并自动使用链接文本重命名文件，支持中英多语言，支持拖黑选择多个PDF和文档，兼容多种文件格式。Batch download files and automatically rename them using link text in any language.",
+  "manifest_version": 3,
+  "permissions": [
+    "downloads",
+    "storage",
+    "contextMenus",
+    "activeTab"
+  ],
+  "host_permissions": [
+    "<all_urls>"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"]
+    }
+  ],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "images/icon16.png",
+      "32": "images/icon32.png",
+      "48": "images/icon48.png",
+      "128": "images/icon128.png"
+    }
+  },
+  "icons": {
+    "16": "images/icon16.png",
+    "32": "images/icon32.png",
+    "48": "images/icon48.png",
+    "128": "images/icon128.png"
+  },
+  "options_page": "options.html"
+}

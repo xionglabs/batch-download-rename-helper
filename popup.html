@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <style>
+    body {
+      width: 400px;
+      font-family: Arial, sans-serif;
+      padding: 10px;
+    }
+    h1 {
+      font-size: 16px;
+      margin-bottom: 10px;
+    }
+    .link-list {
+      max-height: 300px;
+      overflow-y: auto;
+      border: 1px solid #ccc;
+      padding: 5px;
+      margin-bottom: 10px;
+    }
+    .link-item {
+      margin-bottom: 5px;
+      padding: 5px;
+      border-bottom: 1px solid #eee;
+    }
+    .link-item input[type="checkbox"] {
+      margin-right: 5px;
+    }
+    .link-text {
+      font-size: 12px;
+      word-break: break-all;
+    }
+    .buttons {
+      display: flex;
+      justify-content: space-between;
+    }
+    button {
+      padding: 5px 10px;
+    }
+  </style>
+</head>
+<body>
+  <h1>批量下载重命名助手</h1>
+  
+  <div class="link-list" id="linkList">
+    <div class="loading">正在加载页面链接...</div>
+  </div>
+  
+  <div class="buttons">
+    <button id="selectAll">全选</button>
+    <button id="deselectAll">取消全选</button>
+    <button id="download">下载选中链接</button>
+    <button id="options">设置</button>
+  </div>
+  
+  <script src="popup.js"></script>
+</body>
+</html>
