@@ -1,5 +1,11 @@
 # 批量下载重命名助手 (Batch Download & Rename Helper)
 
+## 痛点 (Pain Point)
+
+在日常工作和学习中，我们经常需要从网页上下载大量文件，比如PDF文档、Word文件、图片等。然而，这些文件下载后往往带有一串无意义的数字或代码作为文件名，使得我们很难找到所需的文件。
+
+如果你也有这样的困扰，那么"批量下载重命名助手"浏览器扩展将是你的得力助手。
+
 ![image](https://github.com/user-attachments/assets/df6ade1d-f9a1-427d-81ad-e33d98285246)
 
 
