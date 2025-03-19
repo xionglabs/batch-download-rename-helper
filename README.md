@@ -20,7 +20,7 @@ Batch Download & Rename Helper is a browser extension that allows you to downloa
 - **智能重命名**: 自动使用链接文本作为文件名，支持中英文等多语言
 - **批量下载**: 一次性下载多个文件，节省时间
 - **拖黑选择**: 在网页上拖黑选择包含链接的文本，快速批量下载
-- **右键菜单**: 在链接上右键点击，选择"批量下载并重命名"
+- **右键菜单**: 在链接上右键点击，选择"批量下载重命名助手"
 - **多格式支持**: 兼容PDF、Word、Excel、图片等多种文件格式
 - **文件类型标识**: 直观显示不同文件类型，便于识别
 
@@ -44,7 +44,7 @@ Batch Download & Rename Helper is a browser extension that allows you to downloa
 ### 右键菜单下载 (Right-Click Menu Download)
 
 1. 在链接上右键点击
-2. 选择"批量下载并重命名"
+2. 选择"批量下载重命名助手"
 3. 文件将自动下载并使用链接文本重命名
 
 ### 扩展弹窗下载 (Extension Popup Download)
